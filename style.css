@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    color: #023465; 
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#dbtn {
+    display: block;
+    width: 100px;
+    height: 40px;
+    margin: 20px auto;
+    background-color: #e74c3c;
+    color: #fff;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+#dbtn:hover {
+    background-color: #c0392b;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dogimg {
+    width: 400px;
+    height: 350px;
+}
